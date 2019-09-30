@@ -5,9 +5,9 @@
       <h3 style="margin-top: 1rem">Welcome to Your Vue.js App</h3>
     </div>
 
-    <br/>
+    <br />
 
-    <h2># Trend 组件 </h2>
+    <!--     <h2># Trend 组件 </h2>
 
     <a-divider> 正常 </a-divider>
 
@@ -138,13 +138,13 @@
     <a-divider> TagCloud </a-divider>
     <a-card style="margin-bottom: 3rem">
       <tag-cloud :tag-list="tagCloudData"></tag-cloud>
-    </a-card>
+    </a-card> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-
+/*
 import Trend from '@/components/Trend'
 import AvatarList from '@/components/AvatarList'
 import CountDown from '@/components/CountDown/CountDown'
@@ -198,18 +198,18 @@ export default {
       })
     }
   }
-}
+} */
 </script>
 
 <style scoped>
-  .home {
-    width: 900px;
-    margin: 0 auto;
-    padding: 25px 0;
-  }
-  .home > .banner {
-    text-align: center;
-    padding: 25px 0;
-    margin: 25px 0;
-  }
+.home {
+  width: 900px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.home > .banner {
+  text-align: center;
+  padding: 25px 0;
+  margin: 25px 0;
+}
 </style>
